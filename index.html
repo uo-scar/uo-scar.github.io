@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uche Oscar Nzube | Data Analyst</title>
+<meta name="description" content="Portfolio of Uche Oscar Nzube, statistics graduate and junior data analyst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--floor:#14283d;--line:#f4f1ea;--gold:#e8b830;--ink:#1b2430;--paper:#f7f5f0;--muted:#5b6674}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Source Serif 4",Georgia,serif;font-size:1.1rem;line-height:1.65;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;line-height:1.05;margin:0}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.hero{background:var(--floor);color:var(--line);position:relative;overflow:hidden;padding:5rem 1.5rem 4rem}
+.court{position:absolute;right:-8%;top:50%;transform:translateY(-50%);width:min(70vw,640px);opacity:.28}
+.wrap{max-width:860px;margin:0 auto;position:relative}
+.hero h1{font-size:clamp(2.8rem,9vw,5.5rem);font-weight:700;letter-spacing:.01em}
+.hero p{max-width:34rem;margin:1.2rem 0 2rem;font-size:1.25rem}
+.btns{display:flex;gap:.8rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.3rem;border:2px solid var(--line);text-decoration:none;font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1.2rem}
+.btn.main{background:var(--gold);border-color:var(--gold);color:var(--floor)}
+section{padding:3.5rem 1.5rem}
+h2{font-size:2.4rem;font-weight:700;margin-bottom:1.2rem}
+.project{border-left:6px solid var(--floor);padding:.2rem 0 .2rem 1.4rem;margin-bottom:2.4rem}
+.project h3{font-size:1.8rem;font-weight:600}
+.meta{color:var(--muted);font-size:.95rem;margin:.3rem 0 .8rem}
+.stats{display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;margin:1rem 0;padding:0;list-style:none}
+.stats li{font-size:1rem}
+.stats b{font-family:"Barlow Condensed",sans-serif;font-size:1.6rem;color:var(--floor);margin-right:.3rem}
+.todo{border-left-color:var(--gold);color:var(--muted)}
+.tags{font-size:.95rem;color:var(--muted)}
+.skills{columns:2;padding-left:1.2rem;max-width:30rem}
+footer{background:var(--floor);color:var(--line);padding:3rem 1.5rem}
+footer a{color:var(--gold)}
+@media(max-width:560px){.skills{columns:1}.court{right:-35%;width:110vw}}
+@media(prefers-reduced-motion:no-preference){.hero h1{animation:rise .7s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(14px)}}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <svg class="court" viewBox="0 0 400 380" fill="none" stroke="#f4f1ea" stroke-width="3" aria-hidden="true">
+    <rect x="130" y="0" width="140" height="190"/>
+    <circle cx="200" cy="190" r="60"/>
+    <path d="M60 0V120a140 140 0 0 0 280 0V0"/>
+    <path d="M170 40h60"/><circle cx="200" cy="52" r="9"/>
+  </svg>
+  <div class="wrap">
+    <h1>Uche Oscar Nzube</h1>
+    <p>Junior data analyst with a statistics degree. I turn messy numbers into clear answers, starting with sport.</p>
+    <div class="btns">
+      <a class="btn main" href="#about">About me</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="projects"><div class="wrap">
+  <h2>Projects</h2>
+  <p>I'm building my first projects now and will post them here as soon as they are finished. Check back soon.</p>
+</div></section>
+
+<section id="about" style="background:#ece8df"><div class="wrap">
+  <h2>About</h2>
+  <p>I am a final-year statistics student at the Federal University of Technology, Owerri, and a junior data analyst based in Port Harcourt. I enjoy basketball, music and cybersecurity, and I like projects where data meets something real.</p>
+  <h3 style="margin:1.6rem 0 .6rem;font-size:1.5rem">Tools</h3>
+  <ul class="skills">
+    <li>SPSS</li><li>Statistical modelling</li>
+    <li>Add: Excel</li><li>Add: SQL</li>
+    <li>Add: Python or R</li><li>Add: Tableau</li>
+  </ul>
+</div></section>
+</main>
+
+<footer id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ucheoscar084@gmail.com">ucheoscar084@gmail.com</a><br>
+  GitHub: <a href="https://github.com/uo-scar">github.com/uo-scar</a><br>
+  LinkedIn: <a href="https://www.linkedin.com/in/uche-oscar">linkedin.com/in/uche-oscar</a></p>
+</div></footer>
+</body>
+</html>
